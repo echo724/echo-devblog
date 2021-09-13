@@ -76,10 +76,15 @@ module.exports = {
         ],
       },
     },
-    googleAnalyticsTrackingId && {
-      resolve: `gatsby-plugin-google-analytics`,
+    {
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        // your google analytics tracking id
+        trackingId: `G-ZRS9S4LHP7`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,
       },
     },
     `gatsby-plugin-sitemap`,

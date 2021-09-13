@@ -6109,14 +6109,10 @@
     "lodash" "^4.17.21"
     "webpack-assets-manifest" "^5.0.6"
 
-"gatsby-plugin-google-analytics@^3.6.0":
-  "integrity" "sha512-uABleg0WAgS20V3Budmx8P0KeXUimDSabGq9no9FgMR0ifFV8InxH39NAB+Rq47LpZRlIkQeorzJKAh6es9/rw=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.13.0.tgz"
-  "version" "3.13.0"
-  dependencies:
-    "@babel/runtime" "^7.14.8"
-    "minimatch" "3.0.4"
-    "web-vitals" "^1.1.2"
+"gatsby-plugin-gtag@^1.0.13":
+  "integrity" "sha512-Oul6O67klajrEjkkF1diD228SmyUWsAwTq/1tYq41vBwmyNiPk4dhk8K93rrNQ5d5zesSv+awBeGBa503tQqGw=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-gtag/-/gatsby-plugin-gtag-1.0.13.tgz"
+  "version" "1.0.13"
 
 "gatsby-plugin-manifest@^3.6.0":
   "integrity" "sha512-izBaVUUnOId7IlX7nDjgnFqxx2insGbm4r+CwlmyjF5slETdvxifERPX8ng+WAscbh3qvJ/vlgLlbbjjfvJe9w=="
@@ -6440,7 +6436,7 @@
   dependencies:
     "@babel/core" "^7.14.8"
 
-"gatsby@^2.0.0 || ^3.0.0", "gatsby@^3.0.0", "gatsby@^3.0.0 || ^2.0.0", "gatsby@^3.0.0-next.0", "gatsby@^3.6.1":
+"gatsby@^2.0.0 || ^3.0.0", "gatsby@^3.0.0", "gatsby@^3.0.0 || ^2.0.0", "gatsby@^3.0.0-next.0", "gatsby@^3.6.1", "gatsby@>2.0.0-alpha":
   "integrity" "sha512-nZOQkV6CF8ixtkbr+VNeiD2ISwuSkRLafeK+x/1btPB/l+b/w8ar0XrJGIWNX4DHr2Pohf3wy166IPfEkNqNTA=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-3.13.0.tgz"
   "version" "3.13.0"
@@ -13045,11 +13041,6 @@
   "integrity" "sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw=="
   "resolved" "https://registry.npmjs.org/web-namespaces/-/web-namespaces-1.1.4.tgz"
   "version" "1.1.4"
-
-"web-vitals@^1.1.2":
-  "integrity" "sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig=="
-  "resolved" "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz"
-  "version" "1.1.2"
 
 "webpack-assets-manifest@^5.0.6":
   "integrity" "sha512-CW94ylPHurZTmxnYajSFA8763Cv/QFIKNgBwqBLaIOnBjH1EbDUAf8Eq1/i+o8qaKyKXJ3aX7r4/jtpXD88ldg=="
