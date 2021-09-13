@@ -8,9 +8,9 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitleAlt: `ECHO DEVLOG`,
-    siteTitle: `ECHO DEVLOG`,
-    siteHeadline: `ECHO DEVLOG - ECHO's development blog`,
+    siteTitleAlt: `echo DEVLOG`,
+    siteTitle: `echo DEVLOG`,
+    siteHeadline: `echo DEVLOG - echo's development blog`,
     siteUrl: `https://echo-devlog.site`,
     siteDescription: `Blog about developing a program, a code, or myself`,
     siteLanguage: `kr`,
@@ -18,6 +18,17 @@ module.exports = {
     author: `@ECHO`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: [
+            /assets/,
+            /tsconfig.js/ 
+          ]
+        } // See below to configure properly
+      }
+    },
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
@@ -27,16 +38,8 @@ module.exports = {
           //   title: `Blog`,
           //   slug: `/blog`,
           // },
-          // {
-          //   title: `About`,
-          //   slug: `/about`,
-          // },
         ],
         externalLinks: [
-          // {
-          //   name: `Twitter`,
-          //   url: `https://twitter.com/lekoarts_de`,
-          // },
           {
             name: `Github`,
             url: `https://github.com/echo724`,
@@ -83,12 +86,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `ECHO DEVLOG - echo's development blog`,
+        short_name: `ECHO DEVLOG`,
+        description: `Blog about developing a program, a code, or myself`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        theme_color: `#F6B352`,
         display: `standalone`,
         icons: [
           {
@@ -99,6 +102,21 @@ module.exports = {
           {
             src: `/android-chrome-512x512.png`,
             sizes: `512x512`,
+            type: `image/png`,
+          },
+          {
+            src: `/apple-touch-icon.png`,
+            sizes: `180x180`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicon-16x16.png`,
+            sizes: `16x16`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicon-32x32.png`,
+            sizes: `32x32`,
             type: `image/png`,
           },
         ],

@@ -25,6 +25,7 @@
     "gatsby-plugin-manifest": "^3.6.0",
     "gatsby-plugin-netlify": "^3.6.1",
     "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-react-svg": "^3.0.1",
     "gatsby-plugin-sitemap": "^4.2.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
     "react": "^17.0.2",

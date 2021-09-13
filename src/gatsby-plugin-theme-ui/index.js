@@ -7,6 +7,7 @@ const theme = merge(originalTheme,{
     useCustomProperties: true,
     },
     colors: {
+        primary: `#F6B352`,
         modes: {
         dark: {
             primary: `#F6B352`,

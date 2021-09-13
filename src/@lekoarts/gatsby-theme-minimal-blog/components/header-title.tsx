@@ -4,6 +4,7 @@ import { jsx } from "theme-ui"
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes"
 import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata"
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
+import Icon from "./../../../../assets/icon.svg"
 
 const HeaderTitle = () => {
   const { siteTitle } = useSiteMetadata()
@@ -15,7 +16,10 @@ const HeaderTitle = () => {
       aria-label={`${siteTitle} - Back to home`}
       sx={{ color: `heading`, textDecoration: `none` }}
     >
-      <div sx={{ my: 0, fontWeight: `Bold`, fontSize: [3, 4], fontFamily: "IBM Plex Sans" }}>{siteTitle}</div>
+      
+      <div sx={{ my: 0, fontWeight: `500`, fontSize: [2,3] }}>
+        {siteTitle} <Icon sx={{ mb: `-1` }} width="26" height="26"/>
+      </div>
     </Link>
   )
 }

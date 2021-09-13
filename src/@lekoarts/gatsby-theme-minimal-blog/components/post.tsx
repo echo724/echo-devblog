@@ -32,8 +32,8 @@ type PostProps = {
   }
 }
 
-const px = [`32px`, `16px`, `8px`, `4px`]
-const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
+// const px = [`32px`, `16px`, `8px`, `4px`]
+// const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
 
 const Post = ({ data: { post } }: PostProps) => (
   <Layout>
@@ -60,8 +60,8 @@ const Post = ({ data: { post } }: PostProps) => (
     </p>
     <section
       sx={{
-        my: 5,
-        ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `), borderRadius: '20px' },
+        my: 4,
+        ".gatsby-resp-image-wrapper": { my: [3,3,4], borderRadius: '20px' },
         ".gatsby-resp-image-image": { borderRadius: '20px' },
         variant: `layout.content`,
       }}

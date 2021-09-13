@@ -5,6 +5,7 @@ import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/
 import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation"
 import HeaderTitle from "./header-title"
 import HeaderExternalLinks from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-external-links"
+import Github from "./../../../../assets/tabler-brand-github.svg"
 
 const Header = () => {
   const { navigation: nav } = useMinimalBlogConfig()
@@ -16,7 +17,7 @@ const Header = () => {
   }
 
   return (
-    <header sx={{ mb: [ 3, 4 ] }}>
+    <header sx={{ mb: [ 4,5 ] }}>
         <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, variant: `dividers.bottom`,}}>
             <HeaderTitle />
             <div 
@@ -37,6 +38,7 @@ const Header = () => {
                         a: { color: `secondary`, ":hover": { color: `heading` } },
                         flexFlow: `wrap`,
                         mr: 1,
+                        mb: -1,
                     }}>
                     <HeaderExternalLinks />
                 </div>
