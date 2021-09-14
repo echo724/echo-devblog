@@ -5,7 +5,6 @@ import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/
 import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation"
 import HeaderTitle from "./header-title"
 import HeaderExternalLinks from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-external-links"
-import Github from "./../../../../assets/tabler-brand-github.svg"
 
 const Header = () => {
   const { navigation: nav } = useMinimalBlogConfig()
