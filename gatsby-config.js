@@ -15,7 +15,7 @@ module.exports = {
     siteDescription: `Blog about developing a program, a code, or myself`,
     siteLanguage: `kr`,
     siteImage: `/banner.jpg`,
-    author: `@ECHO`,
+    author: `@echo724`,
   },
   plugins: [
     {
