@@ -11,7 +11,7 @@ module.exports = {
     siteTitleAlt: `echo DEVLOG`,
     siteTitle: `echo DEVLOG`,
     siteHeadline: `echo DEVLOG - echo's development blog`,
-    siteUrl: `https://echo-devlog.site`,
+    siteUrl: `https://echo-devlog.netlify.app`,
     siteDescription: `Blog about developing a program, a code, or myself`,
     siteLanguage: `kr`,
     siteImage: `/banner.jpg`,
@@ -58,16 +58,8 @@ module.exports = {
         // See: https://github.com/LekoArts/gatsby-themes/tree/master/examples/minimal-blog#changing-your-fonts
         web: [
           {
-            name: `IBM Plex Sans`,
-            file: `https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap`,
-          },
-          {
             name: `Nanum Gothic`,
-            file: `https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap`,
-          },
-          {
-            name: `Urbanist`,
-            file: `https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap`,
+            file: `https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap`,
           },
           {
             name: `Montserrat`,
@@ -91,9 +83,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ECHO DEVLOG - echo's development blog`,
+        name: `ECHO DEVLOG - echo's software development blog`,
         short_name: `ECHO DEVLOG`,
-        description: `Blog about developing a program, a code, or myself`,
+        description: `Blog about a software developing and engineering`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#F6B352`,
