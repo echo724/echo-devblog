@@ -79,7 +79,6 @@ module.exports = {
         anonymize: true,
       },
     },
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -178,5 +177,6 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    `gatsby-plugin-advanced-sitemap`,
   ].filter(Boolean),
 }
