@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://echo-devlog.netlify.app/sitemap.xml
+Sitemap: https://echo-devlog.netlify.app/sitemap-index.xml
