@@ -6,6 +6,8 @@ tags:
     - Python
 ---
 
+![notion-logo](./notion-logo.png)
+
 ## 동기
 
 Gatsby blog에는 글을 편집하고 작성할 수 있는 에디터가 없다. 그리고 주로 노션을 글 작성 도구로 사용해왔기 때문에, 예전처럼 노션을 CMS(Content Management System)로 사용하고 싶었다.
@@ -81,7 +83,7 @@ notion = Client(auth=os.environ["NOTION_TOKEN"])
 
 ### notion-sdk-py의 구조 및 사용법
 
-대략적인 구조는 Notion 공식 api reference와 python sdk의 는 1:1 매칭이다. 무슨 의미냐 하면, 공식 api의 method들과 입력으로 주어야할 파라미터들은 python sdk에서도 똑같이 구현되어 있다는 얘기이다. 바로 아래 메뉴바는 공식 레퍼런스에서 지원하는 메서들이다.
+대략적인 구조는 Notion 공식 api reference와 python sdk의 는 1:1 매칭이다. 무슨 의미냐 하면, 공식 api의 method들과 입력으로 주어야할 파라미터들은 python sdk에서도 똑같이 구현되어 있다는 얘기이다. 바로 아래 메뉴바는 공식 레퍼런스에서 지원하는 메소드들이다.
 
 ![Screen Shot 2021-09-18 at 9.50.20 PM.png](./Screen_Shot_2021-09-18_at_9.50.20_PM.png)
 
