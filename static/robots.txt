@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://echo-devlog.netlify.app/sitemap/sitemap-index.xml
-Sitemap: https://echo-devlog.netlify.app/sitemap/sitemap-0.xml
+Sitemap: https://echo724.github.io/sitemap/sitemap-index.xml
+Sitemap: https://echo724.github.io/sitemap/sitemap-0.xml

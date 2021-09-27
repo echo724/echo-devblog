@@ -11,7 +11,7 @@ module.exports = {
     siteTitleAlt: `echo DEVLOG`,
     siteTitle: `echo DEVLOG`,
     siteHeadline: `echo DEVLOG - echo's development blog`,
-    siteUrl: `https://echo-devlog.netlify.app`,
+    siteUrl: `https://echo724.github.io`,
     siteDescription: `Blog about developing a program, a code, or myself`,
     siteLanguage: `kr`,
     siteImage: `/banner.jpg`,
@@ -119,7 +119,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
