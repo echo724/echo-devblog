@@ -49,7 +49,12 @@ const Post = ({ data: { post } }: PostProps) => (
       {post.tags && (
         <React.Fragment>
           {` — `}
-          <ItemTags tags={post.tags} />
+          {post.tags.map((tag, i) => (
+            <React.Fragment>
+            {!!i && `, `}
+            {tag.name}
+            </React.Fragment>
+          ))}
         </React.Fragment>
       )}
       {post.timeToRead && ` — `}
@@ -57,9 +62,11 @@ const Post = ({ data: { post } }: PostProps) => (
     </p>
     <section
       sx={{
+        maxWidth: '768px',
+        mx: 'auto',
         my: 4,
-        ".gatsby-resp-image-wrapper": { my: [3,3,4], borderRadius: '20px' },
-        ".gatsby-resp-image-image": { borderRadius: '20px' },
+        ".gatsby-resp-image-wrapper": { my: [3,3,4], borderRadius: '10px' },
+        ".gatsby-resp-image-image": { borderRadius: '10px' },
         variant: `layout.content`,
       }}
     >

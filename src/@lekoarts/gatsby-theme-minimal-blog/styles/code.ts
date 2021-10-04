@@ -12,6 +12,7 @@ const code = {
     backgroundColor: tint(`primary`, 0.7),
   },
   ".prism-code": {
+    borderRadius: '10px',
     fontSize: [1, 1, 2],
     padding: `2rem 1rem 1rem 1rem`,
     webkitOverflowScrolling: `touch`,
@@ -39,14 +40,14 @@ const code = {
     color: `gray.8`,
     px: 2,
     py: 1,
-    borderRadius: `2px`,
+    borderRadius: `10px`,
   },
   ".gatsby-highlight": {
     fontSize: [1, 1, 2],
     position: `relative`,
     webkitOverflowScrolling: `touch`,
     bg: `rgb(1, 22, 39)`,
-    borderRadius: `2px`,
+    borderRadius: `10px`,
     mx: [0, 0, 0, -3],
     ".token-line": {
       mx: -3,
