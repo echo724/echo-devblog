@@ -33,7 +33,10 @@ type PostProps = {
 }
 
 const Post = ({ data: { post } }: PostProps) => (
-  <Layout>
+  <Layout sx={{
+    maxWidth: '768px',
+    marginX: 'auto',
+  }}>
     <Seo
       title={post.title}
       description={post.description ? post.description : post.excerpt}
