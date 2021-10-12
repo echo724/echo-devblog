@@ -2,8 +2,8 @@
 title: "카투사 파이썬 스터디 프로젝트"
 date: 2021-10-09
 tags:
-    - Python
     - Study
+    - Python
 slug: "/katusa-python-study"
 ---
 
