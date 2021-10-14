@@ -6,13 +6,13 @@ tags:
 slug: "/ssh-shortcut"
 ---
 
-## Prerequisite
+### Prerequisite
 
 - SSH
 - Shell
 - Vim
 
-## 동기
+### 동기
 
 iOS의 `Blink`앱에서는 서버 host 정보를 미리 저장하여 `ssh hostname`식으로 입력하여 서버에 접속 가능하다. 
 
@@ -20,7 +20,7 @@ iOS의 `Blink`앱에서는 서버 host 정보를 미리 저장하여 `ssh hostna
 
 그래서 맥이나 리눅스의 경우도 그런 단축 기능을 제공하지 않을까 해서 검색해봤는데 있다! 그래서 이번에 어떻게 할 수 있는지 알아보려고 한다.
 
-## SSH Config 이용하기
+### SSH Config 이용하기
 
 Mac이나 Linux 같은 UNIX 계열 OS에는 기본적으로 SSH 단축어 기능을 가지고 있다. ~~Mac을 사야하는 또 다른 이유 ++~~
 
