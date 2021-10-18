@@ -11,8 +11,8 @@ module.exports = {
     siteTitleAlt: `echo DEVBLOG`,
     siteTitle: `echo DEVBLOG`,
     siteHeadline: `echo DEVBLOG - echo's development blog`,
-    siteUrl: `https://echo-devblog.netlify.com`,
-    siteDescription: `echo "Software Developer's Blog"`,
+    siteUrl: `https://echo-devblog.netlify.app`,
+    siteDescription: `echo "Software Development Blog"`,
     siteLanguage: `kr`,
     siteImage: `/banner.jpg`,
     author: `@echo724`,
@@ -72,7 +72,7 @@ module.exports = {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
-        trackingId: `G-PPF7FGDG8T`,
+        trackingId: `G-Y81TN9DWGG`,
         // Puts tracking script in the head instead of the body
         head: false,
         // enable ip anonymization
