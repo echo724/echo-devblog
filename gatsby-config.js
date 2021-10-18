@@ -8,11 +8,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitleAlt: `echo DEVLOG`,
-    siteTitle: `echo DEVLOG`,
-    siteHeadline: `echo DEVLOG - echo's development blog`,
-    siteUrl: `https://echo724.github.io`,
-    siteDescription: `Blog about developing a program, a code, or myself`,
+    siteTitleAlt: `echo DEVBLOG`,
+    siteTitle: `echo DEVBLOG`,
+    siteHeadline: `echo DEVBLOG - echo's development blog`,
+    siteUrl: `https://echo-devblog.netlify.com`,
+    siteDescription: `echo "Software Developer's Blog"`,
     siteLanguage: `kr`,
     siteImage: `/banner.jpg`,
     author: `@echo724`,
@@ -72,7 +72,7 @@ module.exports = {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
-        trackingId: `G-ZW88WYETC3`,
+        trackingId: `G-PPF7FGDG8T`,
         // Puts tracking script in the head instead of the body
         head: false,
         // enable ip anonymization
