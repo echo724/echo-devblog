@@ -11,8 +11,8 @@ module.exports = {
     siteTitleAlt: `echo DEVBLOG`,
     siteTitle: `echo DEVBLOG`,
     siteHeadline: `echo DEVBLOG - echo's development blog`,
-    siteUrl: `https://echo-devblog.netlify.com`,
-    siteDescription: `echo "Software Developer's Blog"`,
+    siteUrl: `https://echo-devblog.netlify.app`,
+    siteDescription: `echo "Software Development Blog"`,
     siteLanguage: `kr`,
     siteImage: `/banner.jpg`,
     author: `@echo724`,
@@ -73,9 +73,13 @@ module.exports = {
       options: {
         // your google analytics tracking id
 <<<<<<< HEAD
+<<<<<<< HEAD
         trackingId: `G-75JG7135FS`,
 =======
         trackingId: `G-PPF7FGDG8T`,
+>>>>>>> main
+=======
+        trackingId: `G-Y81TN9DWGG`,
 >>>>>>> main
         // Puts tracking script in the head instead of the body
         head: false,

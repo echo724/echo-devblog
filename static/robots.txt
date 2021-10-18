@@ -1,4 +1,4 @@
 user-agent: *
 allow: /
 
-sitemap: https://echo-devblog.netlify.com
+sitemap: https://echo-devblog.netlify.app
