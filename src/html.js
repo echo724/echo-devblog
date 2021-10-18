@@ -12,6 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta name="google-site-verification" content="BVR6CvF2QDl6SnjVeiMufRZ47Cwas81K5LYwpO_493s" />
+        <meta name="naver-site-verification" content="7bd32cdc2d0da64f2b95b2646a8ce5f8013c3e79" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
