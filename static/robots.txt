@@ -1,5 +1,4 @@
-User-agent: *
-Allow: /
+user-agent: *
+allow: /
 
-Sitemap: https://echo724.github.io/sitemap/sitemap-index.xml
-Sitemap: https://echo724.github.io/sitemap/sitemap-0.xml
+sitemap: https://echo-devblog.netlify.com

@@ -1,3 +1,6 @@
+deploy: clean
+	npm run deploy
+
 develop: clean build
 	gatsby develop
 
