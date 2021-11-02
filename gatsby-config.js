@@ -176,6 +176,6 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-    `gatsby-plugin-advanced-sitemap`,
+  'gatsby-plugin-advanced-sitemap'
   ].filter(Boolean),
 }
