@@ -52,12 +52,7 @@ const Post = ({ data: { post } }: PostProps) => (
       {post.tags && (
         <React.Fragment>
           {` — `}
-          {post.tags.map((tag, i) => (
-            <React.Fragment>
-            {!!i && `, `}
-            {tag.name}
-            </React.Fragment>
-          ))}
+          <ItemTags tags={post.tags} />
         </React.Fragment>
       )}
       {post.timeToRead && ` — `}
