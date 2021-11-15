@@ -6,7 +6,7 @@ tags:
     - Notion
     - Project
 ---
-## Prerequisites
+### Prerequisite
 
 - Python3
 
@@ -22,7 +22,7 @@ Unofficial Notion API의 구조를 분석하면서, 가장 처음 한 일은 API
 
 공식 api는 다행히도 공식 문서가 있다! 
 
-ㅎㅎ 이 공식문서만 제대로 읽어도 우리는 구조를 파악하는데 큰 어려움은 없을 것이다.
+이 공식문서만 제대로 읽어도 우리는 구조를 파악하는데 큰 어려움은 없을 것이다.
 
 ### Notion Object Types
 
@@ -45,6 +45,7 @@ User는 마크다운 자체에서는 지원하지 않는 기능이고, 노션의
 일단 우리가 중점으로 봐야하는 부분은 **Page**, **Block**이고 notion2md를 만들려면 그 중에서도 Block을 중점적으로 다루어야한다.
 
 <br/>
+
 노션의 모든 기본 단위는 **Block**이다. 
 
 텍스트, 페이지, 타이틀, 이미지, 파일 등등 다양한 데이터들은 노션의 block 단위로 구성된다. 노션 왼쪽의 달린 점 6개가 한 개의 블럭을 표시한다고 보면 된다. 
@@ -68,6 +69,7 @@ Bold, Italic, Code 등등의 스타일 정보들이 `Boolean` type으로 제공�
 이제는 공식적으로 스타일을 지원하기 때문에 노션에서 작성된 페이지와 매우 유사하게 추출 할 있을 것이다.
 
 <br/>
+
 이 RichText Object는 Block Object의 `text` **key**에 들어가 있으며, 단어를 기준으로 나뉘어 배열로 들어가 있다.
 
 ## Block Object
@@ -122,6 +124,4 @@ Reference 페이지를 보면 다음과 같은 Block object 예시가 있다.
 
 따라서 block 하나 혹은 block들을 markdown으로 변환하는데는 다음과 같은 순서를 거치면 될 것이다.
 
-[flowcart](flowcart.png)
-
-<br/>
+![flowcart](flowcart.png)
