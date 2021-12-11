@@ -58,8 +58,8 @@ module.exports = {
         // See: https://github.com/LekoArts/gatsby-themes/tree/master/examples/minimal-blog#changing-your-fonts
         web: [
           {
-            name: `Nanum Gothic`,
-            file: `https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap`,
+            name: `Spoqa Han Sans Neo`,
+            file: '//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'
           },
           {
             name: `Montserrat`,
@@ -87,7 +87,7 @@ module.exports = {
         description: `Blog about a software developing and engineering`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#F6B352`,
+        theme_color: `#fff`,
         display: `standalone`,
         icons: [
           {

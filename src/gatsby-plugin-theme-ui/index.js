@@ -18,31 +18,35 @@ const theme = merge(originalTheme,{
         },
     },
     fonts: {
-        body: `"Montserrat", "Nanum Gothic" ,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`,
+        body: `"Montserrat", "Spoqa Han Sans Neo" ,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`,
     },
     styles: {
         p: {
-            fontSize: [1,"1.1rem",2,2],
-            letterSpacing: `-0.003em`,
+            fontSize: [1,"1.1rem","1.1rem","1.1rem"],
+            letterSpacing: `-0.002em`,
             lineHeight: `body`,
             "--baseline-multiplier": 0.179,
             "--x-height-multiplier": 0.35,
             wordBreak: `break-word`,
+            fontWeight: 400,
         },
         h1: {
+            color: `#383A3F`,
             variant: `text.heading`,
             fontSize: [5, 6, 6, 6],
             mt: 4,
           },
         h2: {
+            color: `#383A3F`,
             variant: `text.heading`,
             fontSize: [4, 5, 5, 5],
             mt: 4,
           },
         h3: {
-        variant: `text.heading`,
-        fontSize: [3, 4, 4, 4],
-        mt: 4,
+            color: `#383A3F`,
+            variant: `text.heading`,
+            fontSize: [3, 4, 4, 4],
+            mt: 4,
         },
     },
 });

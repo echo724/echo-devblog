@@ -44,18 +44,18 @@ const Post = ({ data: { post } }: PostProps) => (
       pathname={post.slug}
       canonicalUrl={post.canonicalUrl}
     />
-    <Heading as="h1" variant="styles.h1">
+    <Heading sx={{ mt:6, fontSize:[5,5,6], textAlign: 'center' }} as="h1" variant="styles.h1">
       {post.title}
     </Heading>
-    <p sx={{ color: `secondary`, mt: 3, a: { color: `secondary` }, fontSize: [1, 1, 2] }}>
-      <time>{post.date}</time>
-      {post.tags && (
+    <p sx={{ color: `secondary`, mt: 3,mb:6, a: { color: `secondary` }, fontSize: [1, 1, 2], textAlign: 'center' }}>
+    {post.tags && (
         <React.Fragment>
-          {` — `}
           <ItemTags tags={post.tags} />
+          {<span> &#183; </span>}
         </React.Fragment>
       )}
-      {post.timeToRead && ` — `}
+      <time>{post.date}</time>
+      {post.timeToRead && <span> &#183; </span>}
       {post.timeToRead && <span>{post.timeToRead} min read</span>}
     </p>
     <section
