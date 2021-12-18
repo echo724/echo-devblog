@@ -28,13 +28,13 @@ slug: "/move-in-poetry-package-manager/"
 따라서 일단 기존 프로젝트 데이터를 poetry가 읽을 수 있는 포맷(`pyproject.toml`)으로 바꿔줘야한다. 나는 [이 블로그](https://browniebroke.com/blog/convert-requirements-to-pyproject/)를 통해, **[dephell](https://dephell.readthedocs.io/cmd-deps-convert.html)**이라는 setup.py 포맷 변환 툴을 알게 되었다. 이 프로그램을 통해 기존 setup.py를 pyproject.toml로 변환해보자. 설치는 간단하다
 
 ```bash
-	$pip install dephell
+	$ pip install dephell
 ```
 
 그 다음 프로젝트의 **setup.py**가 있는 경로에서 다음 명령어를 실행해주면 **Poetry**를 위한 **pyproject.toml**이 생성된다.
 
 ```bash
-	$dephell deps convert --from=setup.py --to-format=poetry  --to-path=pyproject.toml
+	$ dephell deps convert --from=setup.py --to-format=poetry  --to-path=pyproject.toml
 ```
 
 하지만 완벽하게 변환이 되는 것 같지는 않으니, [Poetry의 문서](https://python-poetry.org/docs/pyproject/)를 보면서 수정을 해주면 된다.
@@ -84,7 +84,7 @@ Poetry에서 버전 관리 또한 해주기 때문에 만약 파이썬 버전이
 	$ poetry publish
 ```
 
-그러면 **poetry**는 `dist/`에 있는 파일들을 **PyPI** 저장소에 업로드 해준다. 물론, **PyPI** 아이디와 비밀번호가 있어야 업로드가 가능하다.
+그러면 **Poetry**는 `dist/`에 있는 파일들을 **PyPI** 저장소에 업로드 해준다. 물론, **PyPI** 아이디와 비밀번호가 있어야 업로드가 가능하다.
 
 ---
 

@@ -2,7 +2,7 @@
 import * as React from "react"
 import Highlight, { defaultProps } from "prism-react-renderer"
 import loadable from "@loadable/component"
-import theme from "prism-react-renderer/themes/vsDark"
+import theme from "prism-react-renderer/themes/github"
 
 import Copy from "@lekoarts/gatsby-theme-minimal-blog/src/components/copy"
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"

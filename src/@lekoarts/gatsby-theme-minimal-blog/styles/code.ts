@@ -12,7 +12,7 @@ const code = {
     backgroundColor: tint(`primary`, 0.7),
   },
   ".prism-code": {
-    borderRadius: '10px',
+    borderRadius: '3px',
     fontSize: [1, 1, 2],
     padding: `2rem 1rem 1rem 1rem`,
     webkitOverflowScrolling: `touch`,
@@ -36,18 +36,18 @@ const code = {
     display: `inline-block`,
   },
   "p > code, li > code": {
-    bg: `gray.2`,
-    color: `gray.8`,
+    bg: `rgba(135,131,120,0.15)`,
+    color: `#EB5757`,
     px: 2,
     py: 1,
-    borderRadius: `10px`,
+    borderRadius: `3px`,
   },
   ".gatsby-highlight": {
     fontSize: [1, 1, 2],
     position: `relative`,
     webkitOverflowScrolling: `touch`,
-    bg: `rgb(1, 22, 39)`,
-    borderRadius: `10px`,
+    bg: `rgb(246, 248, 250)`,
+    borderRadius: `3px`,
     mx: [0, 0, 0, -3],
     ".token-line": {
       mx: -3,
@@ -175,9 +175,12 @@ const code = {
   },
   ".gatsby-highlight pre::-webkit-scrollbar-thumb": {
     backgroundColor: `primary`,
+    borderRadius:`3px`,
   },
   ".gatsby-highlight pre::-webkit-scrollbar-track": {
-    background: `rgb(1, 22, 39)`,
+    background: `rgb(246, 248, 250)`,
+    borderBottomRightRadius: `3px`,
+    borderBottomLeftRadius: `3px`
   },
   ".line-number-style": {
     display: `inline-block`,
