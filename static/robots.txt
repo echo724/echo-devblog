@@ -1,5 +1,5 @@
 user-agent: *
 allow: /
 
-sitemap: https://echo-devblog.netlify.app/sitemap.xml
-sitemap: https://echo-devblog.netlify.app/sitemap-pages.xml
+sitemap: https://echo-devblog.netlify.app/sitemap/sitemap-index.xml
+sitemap: https://echo-devblog.netlify.app/sitemap/sitemap-0.xml
