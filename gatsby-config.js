@@ -18,6 +18,7 @@ module.exports = {
     author: `@echo724`,
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
@@ -176,6 +177,5 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-  'gatsby-plugin-advanced-sitemap'
   ].filter(Boolean),
 }
